@@ -39,7 +39,7 @@ print('Model loaded. Start serving...')
 @app.route('/', methods=['GET'])
 def index():
     # Main page
-    return render_template('index.html')
+    return render_template('index.php')
 
 
 @app.route('/predict', methods=['GET', 'POST'])
