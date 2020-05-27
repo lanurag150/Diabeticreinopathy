@@ -78,12 +78,12 @@
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 700px">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 600px">
    
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 400px; height:700px">
+            <div class="w3-card-4" style="width: 400px; height:500px">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Diabetic Reinopathy Analysis</h2>
               </div>
