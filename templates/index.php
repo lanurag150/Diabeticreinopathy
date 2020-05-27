@@ -7,12 +7,17 @@
     <title>Premedic-Diabetic Reinopathy Analysis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	   <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
        <link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}" >
     <link rel="stylesheet"  href="{{ url_for('static', filename='css/animate.css') }}">
+	  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet"> 
     
     <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}" >
@@ -28,11 +33,6 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
-	 <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">  
   </head>
   <body>
   
@@ -83,7 +83,7 @@
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 400px; height:400px">
+            <div class="w3-card-4" style="width: 400px; height:700px">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Diabetic Reinopathy Analysis</h2>
               </div>
