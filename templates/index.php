@@ -50,7 +50,6 @@
           <li class="nav-item"><a href="http://premediccare.rf.gd/departments-user.php" class="nav-link">Departments</a></li>
           <li class="nav-item"><a href="http://premediccare.rf.gd/doctor-user.php" class="nav-link">Doctors</a></li>
           <li class="nav-item"><a href="http://premediccare.rf.gd/blog-user.php" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="http://premediccare.rf.gd/contact-user.php" class="nav-link">Contact</a></li>
         </ul>
         <div class="dropdown" style="float:right;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -83,7 +82,7 @@
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 700px; height:500px; margin: 0 auto;">
+            <div class="w3-card-4" style="width: 700px; height:500px; padding:20px">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Diabetic Reinopathy Analysis</h2>
               </div>
