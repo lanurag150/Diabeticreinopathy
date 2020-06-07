@@ -143,7 +143,7 @@
 
             </div>
             </div>
-         <a href="http://premediccare.rf.gd/Malaria_rec.php?i=1" target="_top" align="right">  <button class="button button1">Recommend</button></a>
+         <a href="http://premediccare.rf.gd/Diabetes_Rec.php" target="_top" align="right">  <button class="button button1">Recommend</button></a>
 
     </section>
 		  <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:White;">
