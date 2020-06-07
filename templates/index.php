@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Premedic-Diabetic Reinopathy Analysis</title>
+    <title>Premedic-Diabetic Retinopathy Analysis</title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -70,19 +70,21 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="http://premediccare.rf.gd/mainindex-user.php" class="nav-link">Home</a></li>
+         <li class="nav-item"><a href="http://premediccare.rf.gd/mainindex-user.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="http://premediccare.rf.gd/about-user.php" class="nav-link">About</a></li>
           <li class="nav-item"><a href="http://premediccare.rf.gd/departments-user.php" class="nav-link">Departments</a></li>
-          <li class="nav-item"><a href="http://premediccare.rf.gd/doctor-user.php" class="nav-link">Doctors</a></li>
-          <li class="nav-item"><a href="http://premediccare.rf.gd/blog-user.php" class="nav-link">Blog</a></li>
-        </ul>
+          <li class="nav-item"><a href="http://premediccare.rf.gd/doctors-user.php" class="nav-link">Doctors</a></li>
+          <li class="nav-item"><a href="http://premediccare.rf.gd/blog-user.php" class="nav-link">Blog</a></li>      
+ </ul>
         <div class="dropdown" style="float:right;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<?php $_COOKIE['Name'];?>
+<?php echo $_SESSION['Name'] ?>
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Dashboard</a>
-    <a class="dropdown-item" href="http://premediccare.rf.gd/logout.php" style="color:red;">Log Out &nbsp;&nbsp;&nbsp;<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a>
+   <a class="dropdown-item" href="http://premediccare.rf.gd/profile-user.php"><i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Profile</a>
+  <a class="dropdown-item" href="http://premediccare.rf.gd/myblogs-user.php"><i class="fa fa-newspaper-o fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;My blogs</a>
+    <a class="dropdown-item" href="http://premediccare.rf.gd/dashboard-user.php"><i class="fa fa-upload fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Dashboard</a>
+    <a class="dropdown-item" href="http://premediccare.rf.gd/logout.php" style="color:red;"><i class="fa fa-lg fa-sign-out" aria-hidden="true"></i>&nbsp;&nbsp;Log Out</a>
   </div>
 </div>
       </div>
@@ -109,7 +111,7 @@
           
            <div class="w3-card-4" style="max-width:700px;margin: auto;height:550px; padding:20px;background-color:White">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">Diabetic Reinopathy Analysis</h2>
+                <h2 style="color:white;">Diabetic Retinopathy Analysis</h2>
               </div>
               <form id="upload-file" method="post" enctype="multipart/form-data" style=
 		    "text-align: center;">
